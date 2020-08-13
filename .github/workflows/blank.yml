@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Hello
-        run: cd history && /usr/bin/bash list.sh
+        name: 更新列表
+        run: cd history && /bin/bash list.sh
