@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Hello
-        run: echo `pwd` > test
+        run: cd history && /usr/bin/bash list.sh
